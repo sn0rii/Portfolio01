@@ -10,7 +10,7 @@ const Home = () => {
           Cześć, mam na imię
         </p>
         <h1 className="text-4xl sm:text-7xl font-bold text-[#ccd6f6]">
-          Wojtek Mitan
+          Wojtek
         </h1>
         <h2 className="text-3xl sm:text-6xl font-bold text-[#8892b0]">
           Jestem frontend developerem

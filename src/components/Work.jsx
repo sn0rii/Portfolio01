@@ -7,9 +7,13 @@ const Work = () => {
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div className="pb-8">
           <p className="text-4xl font-bold inline border-b-4 border-[#a4de02]">
-            Work
+            Projekty
+            {/* Work */}
           </p>
-          <p className="py-6">// Check out some of my recent work</p>
+          <p className="py-6">
+            {/* Check out some of my recent work */}
+            Sprawdź niektóre z projektów
+          </p>
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4 ">
@@ -29,7 +33,8 @@ const Work = () => {
                 </a>
                 <a href="/">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    Code
+                    {/* Code */}
+                    Kod
                   </button>
                 </a>
               </div>
@@ -51,7 +56,8 @@ const Work = () => {
                 </a>
                 <a href="/">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    Code
+                    {/* Code */}
+                    Kod
                   </button>
                 </a>
               </div>
@@ -73,7 +79,8 @@ const Work = () => {
                 </a>
                 <a href="/">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    Code
+                    {/* Code */}
+                    Kod
                   </button>
                 </a>
               </div>
@@ -95,7 +102,8 @@ const Work = () => {
                 </a>
                 <a href="/">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    Code
+                    {/* Code */}
+                    Kod
                   </button>
                 </a>
               </div>

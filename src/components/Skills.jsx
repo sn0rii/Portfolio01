@@ -11,9 +11,9 @@ const Skills = () => {
   return (
     <div
       name="skills"
-      className="xll:pt-[450px]  xll:pb-[200px]  w-full h-screen bg-[#0a192f] text-gray-300 "
+      className="  w-full h-screen bg-[#0a192f] text-gray-300 pt-[100px] md:pt-[0px]   "
     >
-      <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
+      <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full mt-[100px] md:mt-[0px]  ">
         <div>
           <p className="text-4xl font-bold inline border-b-4 border-[#a4de02] ">
             Umiejętności

@@ -5,9 +5,9 @@ const Work = () => {
   return (
     <div
       name="work"
-      className="bg-[#0a192f] w-full xll:pt-[250px]  md:h-screen text-gray-300"
+      className="bg-[#0a192f] w-full   md:h-screen text-gray-300 pt-[300px] md:pt-[0px]"
     >
-      <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full ">
+      <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full  ">
         <div className="pb-8">
           <p className="text-4xl font-bold inline border-b-4 border-[#a4de02]">
             Projekty

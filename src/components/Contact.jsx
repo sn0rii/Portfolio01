@@ -14,7 +14,13 @@ const Contact = () => {
             Kontakt
           </p>
           <p className="py-4 text-gray-300">
-            Wypełnij formę poniżej albo napisz mi email wojtekmitan91@gmail.com
+            Wypełnij formę poniżej albo napisz mi email{" "}
+            <a
+              href="mailto:wojtekmitan91@gmail.com"
+              className="text-decoration-line: underline"
+            >
+              wojtekmitan91@gmail.com
+            </a>
             {/* Submit the form below or shoot me an email wojtekmitan91@gmail.com */}
           </p>
         </div>

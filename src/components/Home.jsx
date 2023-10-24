@@ -17,7 +17,7 @@ const Home = () => {
           {/* I'm frontend Developer */}
         </h2>
         <p className="text-[#8892b0] py-4 max-w-[600px]">
-          specializującym sie w tworzeniu stron internetowych. Aktualnie
+          specializującym się w tworzeniu stron internetowych. Aktualnie
           koncentuję, się na pogłębianiu swojej wiedzy w zakresie full-stack
           {/* Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur
           voluptatem tempore voluptates dolores quasi. Vero voluptatum, aperiam

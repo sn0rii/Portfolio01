@@ -94,6 +94,11 @@ const Navbar = () => {
             Kontakt
           </Link>
         </li>
+        <li className="py-6 text-4xl">
+          <a href={cv} target="blank">
+            CV
+          </a>
+        </li>
       </ul>
 
       {/* SOCIAL MEDIA */}
@@ -130,6 +135,7 @@ const Navbar = () => {
             <a
               className="flex justify-between items-center w-full text-gray-300"
               href={cv}
+              target="blank"
             >
               CV <BsFillPersonLinesFill size={30} />
             </a>

@@ -1,5 +1,5 @@
 import projectTailwind from "../assets/project/ProjektTailwind01.jpg";
-import projectCss from "../assets/project/ProjektCss01.jpg";
+import projectNextGallery from "../assets/project/NextJsImgGallery.jpeg";
 import projectReact from "../assets/project/Projekt1React.jpg";
 import projectJS from "../assets/project/Projekt1JS.jpg";
 
@@ -13,12 +13,8 @@ const Work = () => {
         <div className="pb-8">
           <p className="text-4xl font-bold inline border-b-4 border-[#a4de02]">
             Projekty
-            {/* Work */}
           </p>
-          <p className="py-6">
-            {/* Check out some of my recent work */}
-            Sprawdź niektóre z projektów
-          </p>
+          <p className="py-6">Sprawdź niektóre z projektów</p>
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4 ">
@@ -46,7 +42,6 @@ const Work = () => {
                   rel="noreferrer"
                 >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    {/* Code */}
                     Kod
                   </button>
                 </a>
@@ -55,15 +50,15 @@ const Work = () => {
           </div>
           <div
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
-            style={{ backgroundImage: `url(${projectCss})` }}
+            style={{ backgroundImage: `url(${projectNextGallery})` }}
           >
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold text-white tracking-wider">
-                CSS Projekt
+                Next.js Gallery
               </span>
               <div className="pt-8 text-center">
                 <a
-                  href="https://projekt-2-future-collars.netlify.app/"
+                  href="https://voytec-img-gallery.vercel.app/"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -72,12 +67,11 @@ const Work = () => {
                   </button>
                 </a>
                 <a
-                  href="https://github.com/sn0rii/Projekt-2"
+                  href="https://github.com/sn0rii/img-gallery"
                   target="_blank"
                   rel="noreferrer"
                 >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    {/* Code */}
                     Kod
                   </button>
                 </a>
@@ -108,7 +102,6 @@ const Work = () => {
                   rel="noreferrer"
                 >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    {/* Code */}
                     Kod
                   </button>
                 </a>
@@ -139,7 +132,6 @@ const Work = () => {
                   rel="noreferrer"
                 >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    {/* Code */}
                     Kod
                   </button>
                 </a>

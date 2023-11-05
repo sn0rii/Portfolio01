@@ -3,9 +3,10 @@ import Css from "../assets/css.png";
 import JavaScript from "../assets/javascript.png";
 import ReactImg from "../assets/react.png";
 import TypeScript from "../assets/typescript.png";
-import GitHub from "../assets/github.png";
+// import GitHub from "../assets/github.png";
 import Tailwind from "../assets/tailwind.png";
 import Redux from "../assets/redux.png";
+import Next from "../assets/nextjs.png";
 
 const Skills = () => {
   return (
@@ -17,12 +18,8 @@ const Skills = () => {
         <div>
           <p className="text-4xl font-bold inline border-b-4 border-[#a4de02] ">
             Umiejętności
-            {/* Skills */}
           </p>
-          <p className="py-4">
-            {/* These are technologies I've worked with */}
-            Techchnologie, z którymi obecnie pracuje
-          </p>
+          <p className="py-4">Techchnologie, z którymi obecnie pracuje</p>
           <p className="text-[12px] text-gray-600">
             Naciśnij po przekierowanie na github
           </p>
@@ -74,12 +71,19 @@ const Skills = () => {
             />
             <p className="my-4">TYPESCRIPT</p>
           </a>
-          <a
+          {/* <a
             href="https://github.com/sn0rii"
             className="shadow-md shadow-[#040c16] hover:scale-110 duration-500"
           >
             <img className="w-20 mx-auto" src={GitHub} alt="GitHub icon" />
             <p className="my-4">GITHUB</p>
+          </a> */}
+          <a
+            href="https://github.com/sn0rii/Next-Blog"
+            className="shadow-md shadow-[#040c16] hover:scale-110 duration-500"
+          >
+            <img className="w-20 h-20 mx-auto" src={Next} alt="Next icon" />
+            <p className="my-4">NEXT.js</p>
           </a>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500 cursor-not-allowed">
             <img className="w-20 mx-auto" src={Tailwind} alt="Tailwind icon" />

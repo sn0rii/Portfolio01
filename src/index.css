@@ -20,10 +20,28 @@
   background-position: center;
   height: 250px;
 }
+
 .content-div:hover {
   background-image: linear-gradient(
     to right,
     rgba(112, 157, 255, 0.8),
     hsla(242, 74%, 61%, 0.8)
   ) !important;
+}
+
+.british-flag {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-image: url(./assets/britishFlag.png);
+  background-size: contain;
+}
+
+.polish-flag {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-image: url(./assets/National_Flag_of_Poland.png);
+  background-size: cover;
+  background-repeat: no-repeat;
 }

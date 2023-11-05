@@ -35,8 +35,8 @@ function App() {
       <button
         className={
           language
-            ? `  fixed z-50 top-[18px] left-[80px] british-flag `
-            : "  fixed z-50 top-[18px] left-[80px] polish-flag "
+            ? `  fixed z-50 bottom-[18px] right-[16px] british-flag `
+            : "  fixed z-50 bottom-[18px] right-[16px] polish-flag "
         }
         onClick={toggleLanguage}
       ></button>

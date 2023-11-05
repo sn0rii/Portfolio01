@@ -30,18 +30,20 @@
 }
 
 .british-flag {
-  width: 40px;
-  height: 40px;
+  width: 30px;
+  height: 30px;
   border-radius: 50%;
   background-image: url(./assets/britishFlag.png);
   background-size: contain;
+  opacity: 0.5;
 }
 
 .polish-flag {
-  width: 40px;
-  height: 40px;
+  width: 30px;
+  height: 30px;
   border-radius: 50%;
   background-image: url(./assets/National_Flag_of_Poland.png);
   background-size: cover;
   background-repeat: no-repeat;
+  opacity: 0.5;
 }

@@ -4,7 +4,7 @@ import { FaBars, FaTimes, FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { Link } from "react-scroll";
-import cv from "../assets/CV.pdf";
+import cv from "../assets/WojciechMitanCVENG.pdf";
 
 const NavbarEng = () => {
   const [nav, setNav] = useState(false);

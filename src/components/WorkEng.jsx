@@ -2,6 +2,7 @@ import projectTailwind from "../assets/project/ProjektTailwind01.jpg";
 import projectNextGallery from "../assets/project/NextJsImgGallery.jpeg";
 import projectReact from "../assets/project/Projekt1React.jpg";
 import projectJS from "../assets/project/Projekt1JS.jpg";
+import projektThreads from "../assets/project/ProjektThreads.jpg";
 
 const Work = () => {
   return (
@@ -20,15 +21,15 @@ const Work = () => {
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4 ">
           <div
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
-            style={{ backgroundImage: `url(${projectTailwind})` }}
+            style={{ backgroundImage: `url(${projektThreads})` }}
           >
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold text-white tracking-wider">
-                Tailwind Project
+                ThreadClone-NEXTjs
               </span>
               <div className="pt-8 text-center">
                 <a
-                  href="https://projektbank.netlify.app/"
+                  href="https://voytec-threads.vercel.app/"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -37,7 +38,7 @@ const Work = () => {
                   </button>
                 </a>
                 <a
-                  href="https://github.com/sn0rii/testProject"
+                  href="https://github.com/sn0rii/threads"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -48,6 +49,7 @@ const Work = () => {
               </div>
             </div>
           </div>
+
           <div
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
             style={{ backgroundImage: `url(${projectNextGallery})` }}
@@ -78,6 +80,38 @@ const Work = () => {
               </div>
             </div>
           </div>
+
+          <div
+            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+            style={{ backgroundImage: `url(${projectTailwind})` }}
+          >
+            <div className="opacity-0 group-hover:opacity-100">
+              <span className="text-2xl font-bold text-white tracking-wider">
+                Tailwind Project
+              </span>
+              <div className="pt-8 text-center">
+                <a
+                  href="https://projektbank.netlify.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Demo
+                  </button>
+                </a>
+                <a
+                  href="https://github.com/sn0rii/testProject"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Code
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+
           <div
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
             style={{ backgroundImage: `url(${projectReact})` }}

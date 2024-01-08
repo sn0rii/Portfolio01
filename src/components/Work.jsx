@@ -3,6 +3,7 @@ import projectNextGallery from "../assets/project/NextJsImgGallery.jpeg";
 import projectReact from "../assets/project/Projekt1React.jpg";
 import projectJS from "../assets/project/Projekt1JS.jpg";
 import projektThreads from "../assets/project/ProjektThreads.jpg";
+import projektMarket from "../assets/project/ProjektMarket.jpg";
 
 const Work = () => {
   return (
@@ -19,6 +20,37 @@ const Work = () => {
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4 ">
+          <div
+            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+            style={{ backgroundImage: `url(${projektMarket})` }}
+          >
+            <div className="opacity-0 group-hover:opacity-100">
+              <span className="text-2xl font-bold text-white tracking-wider">
+                Market NEXTjs
+              </span>
+              <div className="pt-8 text-center">
+                <a
+                  href="https://voytec-marketplace.up.railway.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Demo
+                  </button>
+                </a>
+                <a
+                  href="https://github.com/sn0rii/marketplace"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Kod
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+
           <div
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
             style={{ backgroundImage: `url(${projektThreads})` }}
